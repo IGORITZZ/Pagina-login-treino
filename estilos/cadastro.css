@@ -28,9 +28,7 @@ h1{
     margin-bottom: 0;
     color: var(--cor4);
 }
-p{
-    color: var(--cor1);
-}
+
 .cadastro {
     text-align: center;
     font-family: var(--font3);
@@ -43,11 +41,23 @@ p{
 }
 
 fieldset {
-    width: 300px;
+    width: 450px;
     background-color: var(--cor1);
     border: none;
     border-radius: 5px;
     padding: 10px;
+    margin-bottom: 10px;
+}
+fieldset > h1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-family: var(--font1);
+    color: var(--cor4);
+    margin: 0;
+    margin-bottom: 10px;
+}
+p{
+    color: var(--cor1);
 }
 
 legend {
@@ -68,6 +78,7 @@ input {
     margin-bottom: 8px;
     outline: none;
 }
+
 #link{
     position: absolute;
     bottom: 0;

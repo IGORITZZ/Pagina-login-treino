@@ -30,12 +30,13 @@ fieldset{
     border: none;
     border-radius: 15px;
 }
-legend{
+
+fieldset h1{
     text-align: center;
     font-size: 3em;
     font-family: var(--font1);
     color: var(--cor4);
-    margin-bottom: 20px;
+    margin: 20px;
 }
 legend > img {
     width: 29px;

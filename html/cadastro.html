@@ -16,7 +16,7 @@
         <div class="formulario">
             <form action="#" method="post" autocomplete="off">
                 <fieldset>
-                    <legend>Dados Pessoais</legend>
+                    <h1>Dados Pessoais</h1>
                     <label for="inome">
                         <input type="text" name="nome" id="inome" placeholder="Nome" required>
                     </label>
@@ -28,12 +28,18 @@
                     </label>
                 </fieldset>
                 <fieldset>
-                    <legend>Dados para Contado</legend>
+                    <h1>Dados para Contato</h1>
                     <label for="itel">
                         <input type="tel" name="tel" id="itel" placeholder="+55 (**) 9****-****" maxlength="14" required>
                     </label>
                     <label for="iemail">
                         <input type="email" name="email" id="iemail" placeholder="exemple@exemple.com" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <h1>Termos e Condições</h1>
+                    <label for="iaceito">
+                        <input type="checkbox" name="aceito" id="iaceito"> Aceito os <a href="#">termos e condições</a> do site.
                     </label>
                 </fieldset>
             </form>
