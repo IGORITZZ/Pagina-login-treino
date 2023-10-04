@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../estilos/cadastro.css">
+    <link rel="shortcut icon" href="../imagens/how_to_reg_FILL0_wght400_GRAD0_opsz24.svg" type="image/x-icon">
+    <title>Cadastro</title>
+</head>
+
+<body>
+    <div class="cadastro">
+        <h1><strong>Realize aqui o seu cadastro</strong></h1>
+        <p><strong>Informe seus dados</strong></p>
+        <div class="formulario">
+            <form action="#" method="post" autocomplete="off">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label for="inome">
+                        <input type="text" name="nome" id="inome" placeholder="Nome" required>
+                    </label>
+                    <label for="isobrenome">
+                        <input type="text" name="sobrenome" id="isobrenome" placeholder="Sobrenome" required>
+                    </label>
+                    <label for="idata">
+                        <input type="date" name="data" id="idata" placeholder="Data de Nacimento" required>
+                    </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Dados para Contado</legend>
+                    <label for="itel">
+                        <input type="tel" name="tel" id="itel" placeholder="+55 (**) 9****-****" maxlength="14" required>
+                    </label>
+                    <label for="iemail">
+                        <input type="email" name="email" id="iemail" placeholder="exemple@exemple.com" required>
+                    </label>
+                </fieldset>
+            </form>
+        </div>
+    </div>
+    <a href="index.html" id="link">Voltar</a>
+</body>
+</html>
