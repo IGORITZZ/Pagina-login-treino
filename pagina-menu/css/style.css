@@ -11,7 +11,7 @@ header > h1{
    padding-top: 10px;
 }
 menu{
-    display: block;
+    display: none;
 }
 menu ul{
     list-style-type: none;
@@ -27,4 +27,21 @@ menu a{
 }
 menu a:hover{
     background-color: gray;
+}
+#burguer{
+    display: block;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    user-select: none;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+}
+main{
+    width: 80vw;
 }
